@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T18:16:51 IST" name="Loan Department" finished-at="2023-02-23T18:16:52 IST" duration-ms="498">
+    <groups>
+      <group name="Regression">
+        <method signature="Demo3.APILoginCarLoan()[pri:0, instance:Demo3@7205765b]" name="APILoginCarLoan" class="Demo3"/>
+        <method signature="Demo3.MobileSignOutCarLoan(java.lang.String)[pri:0, instance:Demo3@7205765b]" name="MobileSignOutCarLoan" class="Demo3"/>
+        <method signature="Demo3.MobileSigninCarLoan()[pri:0, instance:Demo3@7205765b]" name="MobileSigninCarLoan" class="Demo3"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Demo2.test3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo2@33990a0c]" name="test3" class="Demo2"/>
+        <method signature="Demo3.MobileLoginCarLoan(java.lang.String)[pri:0, instance:Demo3@7205765b]" name="MobileLoginCarLoan" class="Demo3"/>
+        <method signature="Demo3.MobileSignOutCarLoan(java.lang.String)[pri:0, instance:Demo3@7205765b]" name="MobileSignOutCarLoan" class="Demo3"/>
+        <method signature="Demo3.WebLoginCarLoan()[pri:0, instance:Demo3@7205765b]" name="WebLoginCarLoan" class="Demo3"/>
+        <method signature="Demo4.MobileLoginHomeLoan()[pri:0, instance:Demo4@bae7dc0]" name="MobileLoginHomeLoan" class="Demo4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-02-23T18:16:51 IST" name="Personal Loan" finished-at="2023-02-23T18:16:51 IST" duration-ms="140">
+      <class name="Demo2">
+        <test-method is-config="true" signature="test4()[pri:0, instance:Demo2@33990a0c]" started-at="2023-02-23T18:16:51 IST" name="test4" finished-at="2023-02-23T18:16:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo2@33990a0c]" started-at="2023-02-23T18:16:51 IST" name="test3" finished-at="2023-02-23T18:16:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.personal.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="test5()[pri:0, instance:Demo2@33990a0c]" started-at="2023-02-23T18:16:51 IST" name="test5" finished-at="2023-02-23T18:16:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- Demo2 -->
+      <class name="Demo">
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo@3514a4c0]" started-at="2023-02-23T18:16:51 IST" name="test1" finished-at="2023-02-23T18:16:51 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.personal.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Demo@3514a4c0]" started-at="2023-02-23T18:16:51 IST" name="test2" finished-at="2023-02-23T18:16:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()[pri:0, instance:Demo@3514a4c0]" started-at="2023-02-23T18:16:51 IST" name="test4" finished-at="2023-02-23T18:16:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Demo -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-02-23T18:16:52 IST" name="Car Loan" finished-at="2023-02-23T18:16:52 IST" duration-ms="92">
+      <class name="Demo3">
+        <test-method signature="APILoginCarLoan()[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="APILoginCarLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="beforeclass" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="MobileLoginCarLoan(java.lang.String)[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="MobileLoginCarLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.car.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="MobileSignOutCarLoan(java.lang.String)[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="MobileSignOutCarLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.car.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutCarLoan -->
+        <test-method signature="MobileSigninCarLoan()[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="MobileSigninCarLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSigninCarLoan -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="WebLoginCarLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Demo3@7205765b]" started-at="2023-02-23T18:16:52 IST" name="afterclass" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- Demo3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2023-02-23T18:16:52 IST" name="Home Loan" finished-at="2023-02-23T18:16:52 IST" duration-ms="122">
+      <class name="Demo">
+        <test-method is-config="true" signature="test3()[pri:0, instance:Demo@3514a4c0]" started-at="2023-02-23T18:16:52 IST" name="test3" finished-at="2023-02-23T18:16:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Demo -->
+      <class name="Demo4">
+        <test-method is-config="true" signature="test2()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:51 IST" name="test2" finished-at="2023-02-23T18:16:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="beforemethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="APILoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="APILoginHomeLoan" data-provider="data" finished-at="2023-02-23T18:16:52 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[first password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="aftermethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="APILoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="APILoginHomeLoan" data-provider="data" finished-at="2023-02-23T18:16:52 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="beforemethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="beforemethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="APILoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="APILoginHomeLoan" data-provider="data" finished-at="2023-02-23T18:16:52 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[third username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[third password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="aftermethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="MobileLoginHomeLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="aftermethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="beforemethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="beforemethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="aftermethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="WebLoginHomeLoan(java.lang.String)[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="WebLoginHomeLoan" finished-at="2023-02-23T18:16:52 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Demo4@bae7dc0]" started-at="2023-02-23T18:16:52 IST" name="aftermethod" finished-at="2023-02-23T18:16:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Demo4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
