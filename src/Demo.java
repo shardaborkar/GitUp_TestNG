@@ -10,7 +10,7 @@ SoftAssert sa=new SoftAssert();
 @Parameters({"URL","Username","Password"})
 public void test1(String urlname,String uname,String pass) 
 {
-System.out.println("GitUp TestNG hello");
+System.out.println("framework GitUp TestNG hello");
 System.out.println(urlname+" "+uname+" "+pass);
 }
 /*Assert.assertTrue(false);
